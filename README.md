@@ -7,6 +7,10 @@ What
 ----
 A [Google Chrome](http://google.com/chrome) proof-of-concept that allows any text to be used as a domain name.
 
+Install
+-------
+Available in the Chrome Web Store [here](http://google.com), or as the `.crx` file [here](https://github.com/amoffat/hash-n-slash/blob/master/hashnslash.crx)
+
 How
 ---
 HnS does 3 things:
