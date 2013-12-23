@@ -13,9 +13,9 @@ Available in the Chrome Web Store [here](http://google.com), or as the `.crx` fi
 
 How
 ---
-HnS does 3 things:
-  * Any url, typed in the url bar, that starts with `# ` will be intercepted by HnS and SHA-1 hashed to a `.com` address.
-  * Any link on a web page whose href starts with `#://` will be transformed by HnS and SHA-1 hashed to a `.com` address.
+Hash-n-Slash does 3 things:
+  * Any url, typed in the url bar, that starts with `# ` will be intercepted and SHA-1 hashed to a `.com` address.
+  * Any link on a web page whose href starts with `#://` will be SHA-1 hashed to a `.com` address.
   * If a link's href contains just `#://`, the link's textContent will be SHA-1 hashed to a `.com` address.
 
 ![demo transformation](http://i.imgur.com/NXu34x1.png)  
