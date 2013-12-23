@@ -9,7 +9,7 @@ A [Google Chrome](http://google.com/chrome) proof-of-concept that allows any tex
 
 Install
 -------
-Available in the Chrome Web Store [here](http://google.com), or as the `.crx` file [here](https://github.com/amoffat/hash-n-slash/blob/master/hashnslash.crx)
+Available in the Chrome Web Store [here](https://chrome.google.com/webstore/detail/empty-title/deeodhnicjhejapbkohokpgglnnmgbkc), or as the `.crx` file [here](https://github.com/amoffat/hash-n-slash/blob/master/hashnslash.crx)
 
 How
 ---
