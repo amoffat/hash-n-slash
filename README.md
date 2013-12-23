@@ -1,6 +1,8 @@
 Hash-n-Slash
 ============
 
+![demo gif](http://i.imgur.com/Wf5pmir.gif)
+
 What
 ----
 A [Google Chrome](http://google.com/chrome) proof-of-concept that allows any text to be used as a domain name.
@@ -11,6 +13,9 @@ HnS does 3 things:
   * Any url, typed in the url bar, that starts with `# ` will be intercepted by HnS and SHA-1 hashed to a `.com` address.
   * Any link on a web page whose href starts with `#://` will be transformed by HnS and SHA-1 hashed to a `.com` address.
   * If a link's href contains just `#://`, the link's textContent will be SHA-1 hashed to a `.com` address.
+
+![demo transformation](http://i.imgur.com/zwml3A6.png)  
+
 
 Why
 ---
