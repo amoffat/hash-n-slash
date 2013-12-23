@@ -1,0 +1,40 @@
+{
+    "manifest_version": 2,
+
+    "name": "#://",
+    "description": "PoC: Expands available domain names by allowing any text to be used",
+    "version": "1.0",
+
+    "omnibox": {
+        "keyword" : "#"
+    },
+    
+    "background": {
+        "scripts": [
+            "sha1.js",
+            "utils.js",
+            "background.js"
+        ]
+    },
+    
+    "content_scripts": [
+        {
+          "matches": [
+              "http://*/*",
+              "https://*/*",
+              "file://*/*"
+          ],
+          
+          "js": [
+              "sha1.js",
+              "utils.js",
+              "jquery-1.10.1.min.js",
+              "transform_links.js"
+          ]
+        }
+    ],
+    
+    "permissions": [
+        "*://*/*"
+    ]
+}
