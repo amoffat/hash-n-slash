@@ -13,7 +13,7 @@ Available in the Chrome Web Store [here](https://chrome.google.com/webstore/deta
 How
 ---
 Hash-n-Slash currently does 3 things:
-  * Any url, typed in the url bar, that starts with `#<space>` will be intercepted and SHA-1 hashed to a `.com` address.
+  * Any url, typed in the url bar, that starts with `#<tab>` will be intercepted and SHA-1 hashed to a `.com` address.
   * Any link on a web page whose href starts with `#://` will be SHA-1 hashed to a `.com` address.
   * If a link's href contains just `#://`, the link's textContent will be SHA-1 hashed to a `.com` address.
 
