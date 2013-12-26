@@ -1,7 +1,7 @@
 Hash-n-Slash
 ============
 
-Hash-n-Slash is a Google Chrome proof-of-concept that allows any text to be used as a domain name.  By turning domain names into hashes, we allow for a greater flexibility of exactly what can be used to point to an online resource.
+Hash-n-Slash is a proof-of-concept Chrome extension that allows any text to be used as a domain name.  By turning domain names into hashes, we allow for a greater flexibility of exactly what can be used to point to an online resource.
 
 ![demo gif](http://i.imgur.com/Wf5pmir.gif)
 
