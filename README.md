@@ -21,7 +21,7 @@ Hash-n-Slash currently does 3 things:
 
 But why?
 --------
-Good domain names are pretty scarce.  It's a source of frustration for anyone who has ever tried to find a good domain name.  I thought it might be fun if there was a hashing scheme that allowed more flexibility in mapping resources to locations on the web.  Under a domain hashing scheme, the following might be possible:
+Good domain names are pretty scarce.  It's a source of frustration for anyone who has ever tried to buy a domain.  I thought it might be fun if there was a hashing scheme that allowed more flexibility in mapping resources to locations on the web.  Under a domain hashing scheme, the following might be possible:
 * Documents could have unique resources on the web.  A document's `sha1sum` could be a valid domain name to find the document itself, or other related resources about the doc.  eg `sha1sum ForestFire.pdf` => `5fd035907cf17542631feb891babe3235e56c198.com`
 * More expressive domain names.  Quotes or phrases could point somewhere.  eg "For sale: baby shoes, never worn" => `3f7bc217f621dfd7ce371ca2450c99787a11ce5b.com`
 * Bind searches to domain names, eg "food in chicago" => `f02970848a63988965aa40cd368ffcf9046209ca.com`
