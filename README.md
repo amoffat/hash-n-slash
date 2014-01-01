@@ -14,7 +14,7 @@ How
 ---
 Hash-n-Slash currently does 3 things:
   * Any url, typed in the url bar, that starts with `#<tab>` will be intercepted and SHA-1 hashed to a `.com` address.
-  * A link that starts with `#://` will be SHA-1 hashed to a `.com` address.
+  * Web pages are scanned for links that start with `#://`, which are then SHA-1 hashed to a `.com` address.
   * If a link's href contains just `#://`, the link's textContent will be SHA-1 hashed to a `.com` address.
 
 ![demo transformation](http://i.imgur.com/NXu34x1.png)  
